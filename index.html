@@ -3,7 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Windy Marisa — Growth & Analytics</title>
+
+  <!-- Primary SEO -->
+  <title>Windy Marisa — Digital Marketing, E-commerce &amp; Analytics Consultant | Bristol</title>
+  <meta name="description" content="Bristol-based digital marketing, e-commerce and analytics consultant with 10+ years across luxury hospitality and travel industry. Specialising in growth strategy, analytics implementation, 
+    and performance marketing.">
+  <meta name="author" content="Windy Marisa">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://windymarisa.github.io">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://windymarisa.github.io">
+  <meta property="og:title" content="Windy Marisa — Digital Marketing, E-commerce &amp; Analytics Consultant">
+  <meta property="og:description" content="Bristol-based consultant with 10+ years in luxury hospitality and travel industry, specialising in digital marketing, e-commerce and distribution fields. 
+    Now focused on analytics, growth strategy, and performance marketing.">
+  <meta property="og:locale" content="en_GB">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Windy Marisa — Digital Marketing, E-commerce &amp; Analytics Consultant">
+  <meta name="twitter:description" content="Bristol-based consultant with 10+ years in luxury hospitality and travel industry.">
+
+  <!-- Schema.org Person structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Windy Marisa",
+    "jobTitle": "Digital Marketing & Analytics Consultant",
+    "description": "Bristol-based digital marketing, e-commerce and analytics consultant with 10+ years across luxury hospitality and travel brands including Marriott, Shangri-La, and Travel + Leisure Co.",
+    "url": "https://windymarisa.github.io",
+    "email": "hello@windyagni.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bristol",
+      "addressCountry": "GB"
+    },
+    "sameAs": [
+      "https://linkedin.com/in/windymarisa",
+      "https://github.com/windymarisa"
+    ],
+    "knowsAbout": [
+      "Digital Marketing",
+      "Marketing Analytics",
+      "Google Analytics",
+      "Adobe Analytics",
+      "Tableau",
+      "Google Tag Manager",
+      "SEO",
+      "Paid Ads",
+      "Ecommerce"
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
   <style>
@@ -16,7 +70,7 @@
       --navy-lt:   #253459;
       --copper:    #B5682A;
       --copper-lt: #f0dcc8;
-      --slate:     #5a6478;
+      --slate:     #454e60;
       --rule:      #d8d0c0;
       --white:     #ffffff;
     }
@@ -50,10 +104,11 @@
       font-weight: 500;
       color: var(--navy);
       letter-spacing: 0.06em;
+      text-decoration: none;
     }
     .nav-links { display: flex; gap: 36px; list-style: none; }
     .nav-links a {
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 500;
       color: var(--slate);
       text-decoration: none;
@@ -76,7 +131,7 @@
     .hero-inner { max-width: 900px; position: relative; z-index: 1; }
     .hero-eyebrow {
       font-family: 'DM Mono', monospace;
-      font-size: 11px;
+      font-size: 12px;
       color: var(--copper);
       letter-spacing: 0.16em;
       text-transform: uppercase;
@@ -147,7 +202,6 @@
     }
     .hero-cta-ghost:hover { border-color: var(--copper); color: var(--copper); }
 
-    /* Large decorative initial letter behind hero */
     .hero-deco {
       position: absolute;
       right: -20px;
@@ -160,6 +214,7 @@
       line-height: 1;
       pointer-events: none;
       user-select: none;
+      aria-hidden: true;
       z-index: 0;
     }
 
@@ -168,7 +223,7 @@
     .section-inner { max-width: 900px; margin: 0 auto; }
     .section-label {
       font-family: 'DM Mono', monospace;
-      font-size: 10px;
+      font-size: 11px;
       color: var(--copper);
       letter-spacing: 0.18em;
       text-transform: uppercase;
@@ -231,7 +286,7 @@
       margin-bottom: 6px;
     }
     .stat-label {
-      font-size: 11px;
+      font-size: 12px;
       color: var(--slate);
       font-weight: 500;
       text-transform: uppercase;
@@ -251,7 +306,7 @@
     .timeline-item:first-child { border-top: 1px solid var(--rule); }
     .timeline-period {
       font-family: 'DM Mono', monospace;
-      font-size: 11px;
+      font-size: 12px;
       color: var(--slate);
       padding-top: 6px;
       letter-spacing: 0.04em;
@@ -265,7 +320,7 @@
     .timeline-desc { font-size: 0.95rem; color: var(--slate); line-height: 1.75; }
     .tag {
       display: inline-block;
-      font-size: 10px;
+      font-size: 11px;
       font-family: 'DM Mono', monospace;
       background: var(--copper-lt);
       color: var(--copper);
@@ -292,7 +347,7 @@
     .skill-card:hover { background: var(--cream); }
     .skill-card-title {
       font-family: 'DM Mono', monospace;
-      font-size: 10px;
+      font-size: 11px;
       color: var(--copper);
       letter-spacing: 0.14em;
       text-transform: uppercase;
@@ -364,7 +419,7 @@
     }
     footer p {
       font-family: 'DM Mono', monospace;
-      font-size: 10px;
+      font-size: 11px;
       color: rgba(245,240,232,0.22);
       letter-spacing: 0.08em;
     }
@@ -396,8 +451,8 @@
 <body>
 
   <!-- NAV -->
-  <nav>
-    <span class="nav-logo">Windy Marisa</span>
+  <nav aria-label="Primary navigation">
+    <a href="#" class="nav-logo">Windy Marisa</a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
@@ -406,158 +461,168 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-deco">B</div>
-    <div class="hero-inner">
-      <div class="hero-eyebrow">Digital Marketing &amp; Analytics</div>
-      <h1>Growth through<br><em>data-led</em><br>thinking.</h1>
-      <p class="hero-sub">10+ years building digital programmes across luxury hospitality and travel — now focused on analytics, commercial growth, and strategy.</p>
-      <a href="#contact" class="hero-cta">Get in touch</a>
-      <a href="#experience" class="hero-cta-ghost">View my work</a>
-    </div>
-  </section>
+  <main>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="section-inner">
-      <div class="section-label">About</div>
-      <div class="about-grid reveal">
-        <div class="about-text">
-          <h2>Bristol-based.<br>Global experience.</h2>
-          <p>I've spent a decade in digital marketing and ecommerce for some of the world's best-known hospitality and travel brands — from Marriott and Shangri-La to Travel &amp; Leisure Co. — across APAC, Europe, the US, and Canada.</p>
-          <p>My current focus is bridging the gap between marketing and analytics: building dashboards, implementing tracking, and turning data into decisions that actually move revenue.</p>
-        </div>
-        <div class="about-stats">
-          <div class="stat">
-            <div class="stat-num">10+</div>
-            <div class="stat-label">Years in digital</div>
+    <!-- HERO -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-deco" aria-hidden="true">B</div>
+      <div class="hero-inner">
+        <div class="hero-eyebrow">Digital Marketing, E-commerce &amp; Analytics</div>
+        <h1>Growth through<br><em>data-led</em><br>thinking.</h1>
+        <p class="hero-sub">10+ years building digital programmes across luxury hospitality and travel — now focused on analytics, performance marketing, and growth strategy.</p>
+        <a href="#contact" class="hero-cta">Get in touch</a>
+        <a href="#experience" class="hero-cta-ghost">View my work</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" aria-label="About Windy Marisa">
+      <div class="section-inner">
+        <div class="section-label" aria-hidden="true">About</div>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <h2>Bristol-based.<br>Global experience.</h2>
+            <p>I've spent a decade in digital marketing and e-commerce for some of the world's best-known hospitality and travel brands — from Marriott and Shangri-La to Travel &amp; Leisure Co. — across APAC, 
+              handling Asia, Europe, Middle East and North America markets.</p>
+            <p>My current focus is bridging the gap between marketing and analytics: building dashboards, implementing tracking, and turning data into decisions that actually move revenue.</p>
           </div>
-          <div class="stat">
-            <div class="stat-num">4</div>
-            <div class="stat-label">Regions managed</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">£M</div>
-            <div class="stat-label">Media budgets</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">15+</div>
-            <div class="stat-label">MarTech tools</div>
+          <div class="about-stats" aria-label="Career highlights">
+            <div class="stat">
+              <div class="stat-num">10+</div>
+              <div class="stat-label">Years in digital & e-commerce</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Regions managed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">USD 3M</div>
+              <div class="stat-label">Media budgets</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">15+</div>
+              <div class="stat-label">Marketing & E-commerce tools</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- EXPERIENCE -->
-  <section id="experience">
-    <div class="section-inner">
-      <div class="section-label">Experience</div>
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-period">2022 — Present</div>
-          <div>
-            <h3>Digital Marketing Consultant</h3>
-            <div class="timeline-role">Self-employed · Bristol, UK</div>
-            <p class="timeline-desc">Independent consulting across retail, real estate, and the music industry. Projects spanning SEO strategy, paid media, analytics implementation, and ecommerce optimisation.</p>
-            <span class="tag">Analytics</span>
-            <span class="tag">SEO</span>
-            <span class="tag">Paid Media</span>
+    <!-- EXPERIENCE -->
+    <section id="experience" aria-label="Work experience">
+      <div class="section-inner">
+        <div class="section-label" aria-hidden="true">Experience</div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2020 — Present</div>
+            <div>
+              <h3>Digital Consultant</h3>
+              <div class="timeline-role">Self-employed · Bristol, UK</div>
+              <p class="timeline-desc">Independent consulting across retail, real estate, and travel industry. Projects spanning web and app development, SEO strategy, paid media, analytics implementation, 
+                and e-commerce optimisation.</p>
+              <span class="tag">Analytics</span>
+              <span class="tag">SEO</span>
+              <span class="tag">Paid Media</span>
+               <span class="tag">E-commerce</span>
+               <span class="tag">Web and app development</span>
+            </div>
           </div>
-        </div>
-        <div class="timeline-item reveal">
-          <div class="timeline-period">2018 — 2022</div>
-          <div>
-            <h3>Senior Digital Marketing Manager</h3>
-            <div class="timeline-role">Shangri-La Group · APAC / Multi-region</div>
-            <p class="timeline-desc">Led digital performance across APAC properties. Built analytics dashboards in Tableau and Salesforce Datorama, implemented Google Tag Manager tracking frameworks, and managed digital crisis response strategy.</p>
-            <span class="tag">Tableau</span>
-            <span class="tag">GTM</span>
-            <span class="tag">Adobe Analytics</span>
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2018 — 2020</div>
+            <div>
+              <h3>Senior Digital Marketing Manager</h3>
+              <div class="timeline-role">Shangri-La Group · APAC / Multi-region</div>
+              <p class="timeline-desc">Led digital performance across APAC properties. Built analytics dashboards in Tableau and Salesforce Datorama, implemented Google Tag Manager tracking frameworks, and managed digital crisis response strategy.</p>
+              <span class="tag">Tableau</span>
+              <span class="tag">GTM</span>
+              <span class="tag">Adobe Analytics</span>
+            </div>
           </div>
-        </div>
-        <div class="timeline-item reveal">
-          <div class="timeline-period">2014 — 2018</div>
-          <div>
-            <h3>Digital Marketing Manager</h3>
-            <div class="timeline-role">Travel + Leisure Co. · US / Canada</div>
-            <p class="timeline-desc">Managed multi-channel digital marketing for North American markets, overseeing paid search, email, and ecommerce strategy across a portfolio of leisure travel brands.</p>
-            <span class="tag">Ecommerce</span>
-            <span class="tag">Google Analytics</span>
-            <span class="tag">Paid Search</span>
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2014 — 2018</div>
+            <div>
+              <h3>Digital Marketing Manager</h3>
+              <div class="timeline-role">Travel + Leisure Co. · US / Canada</div>
+              <p class="timeline-desc">Managed multi-channel digital marketing for North American markets, overseeing paid search, email, and ecommerce strategy across a portfolio of leisure travel brands.</p>
+              <span class="tag">Ecommerce</span>
+              <span class="tag">Google Analytics</span>
+              <span class="tag">Paid Search</span>
+            </div>
           </div>
-        </div>
-        <div class="timeline-item reveal">
-          <div class="timeline-period">2012 — 2014</div>
-          <div>
-            <h3>Digital Marketing Executive</h3>
-            <div class="timeline-role">Marriott International · EU</div>
-            <p class="timeline-desc">Entry into luxury hospitality digital — supporting regional campaigns, website content management, and early paid social programmes across European properties.</p>
-            <span class="tag">CMS</span>
-            <span class="tag">Social</span>
-            <span class="tag">Email</span>
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2012 — 2014</div>
+            <div>
+              <h3>Digital Marketing Executive</h3>
+              <div class="timeline-role">Marriott International · EU</div>
+              <p class="timeline-desc">Entry into luxury hospitality digital — supporting regional campaigns, website content management, and early paid social programmes across European properties.</p>
+              <span class="tag">CMS</span>
+              <span class="tag">Social</span>
+              <span class="tag">Email</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SKILLS -->
-  <section id="skills">
-    <div class="section-inner">
-      <div class="section-label">Skills</div>
-      <div class="skills-grid">
-        <div class="skill-card reveal">
-          <div class="skill-card-title">Analytics</div>
-          <ul class="skill-list">
-            <li>Google Analytics 4</li>
-            <li>Adobe Analytics</li>
-            <li>Tableau &amp; Power BI</li>
-            <li>Salesforce Datorama</li>
-            <li>Looker</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class="skill-card reveal">
-          <div class="skill-card-title">MarTech</div>
-          <ul class="skill-list">
-            <li>Google Tag Manager</li>
-            <li>Semrush &amp; Similarweb</li>
-            <li>Shopify</li>
-            <li>Sitecore CMS</li>
-            <li>Booking Engines / PMS</li>
-            <li>Salesforce CRM</li>
-          </ul>
-        </div>
-        <div class="skill-card reveal">
-          <div class="skill-card-title">Growth</div>
-          <ul class="skill-list">
-            <li>Paid Search (SEM)</li>
-            <li>SEO strategy</li>
-            <li>Email marketing</li>
-            <li>A/B testing</li>
-            <li>Attribution modelling</li>
-            <li>Budget management</li>
-          </ul>
+    <!-- SKILLS -->
+    <section id="skills" aria-label="Skills and tools">
+      <div class="section-inner">
+        <div class="section-label" aria-hidden="true">Skills</div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-card-title">Analytics</div>
+            <ul class="skill-list">
+              <li>Google Analytics 4</li>
+              <li>Adobe Analytics</li>
+              <li>Tableau &amp; Power BI</li>
+              <li>Salesforce Datorama</li>
+              <li>Looker</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-title">MarTech</div>
+            <ul class="skill-list">
+              <li>Google Tag Manager</li>
+              <li>Semrush &amp; Similarweb</li>
+              <li>Shopify</li>
+              <li>Sitecore CMS</li>
+              <li>Booking Engines / PMS</li>
+              <li>Salesforce CRM</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-title">Growth</div>
+            <ul class="skill-list">
+              <li>Paid Search (SEM)</li>
+              <li>SEO strategy</li>
+              <li>Email marketing</li>
+              <li>A/B testing</li>
+              <li>Attribution modelling</li>
+              <li>Budget management</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CONTACT -->
-  <section id="contact">
-    <div class="section-inner">
-      <div class="section-label">Contact</div>
-      <h2>Let's talk.</h2>
-      <p class="contact-sub">Open to growth marketing, analytics, and digital strategy roles. Based in Bristol — happy to discuss remote or hybrid opportunities.</p>
-      <div class="contact-links">
-        <a href="mailto:you@email.com" class="contact-link">✉ Email me</a>
-        <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank">in LinkedIn</a>
-        <a href="https://github.com/yourusername" class="contact-link" target="_blank">⌥ GitHub</a>
+    <!-- CONTACT -->
+    <section id="contact" aria-label="Contact">
+      <div class="section-inner">
+        <div class="section-label" aria-hidden="true">Contact</div>
+        <h2>Let's talk.</h2>
+        <p class="contact-sub">Open to growth marketing, analytics, and digital strategy roles. Based in Bristol — happy to discuss remote or hybrid opportunities.</p>
+        <address>
+          <div class="contact-links">
+            <a href="mailto:you@email.com" class="contact-link">✉ Email me</a>
+            <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
+            <a href="https://github.com/yourusername" class="contact-link" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
+          </div>
+        </address>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer>
@@ -578,4 +643,3 @@
   </script>
 </body>
 </html>
-  
