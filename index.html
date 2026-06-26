@@ -5,25 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark">
 
-  <!-- ═══ PRIMARY SEO ═══ -->
-  <!-- Title: primary keyword first, under 60 chars, unique -->
-  <title>Windy Marisa | Digital, E-commerce, Analytics &amp; MarTech Consultant — Bristol, UK</title>
-  <!-- Description: 150–160 chars, includes keyword + value proposition -->
+  <!-- ═══════════════════════════════════════════════════════
+       SEO — Title, description, canonical, robots
+  ═══════════════════════════════════════════════════════ -->
+  <title>Ben Smith | Marketing Analytics &amp; MarTech Consultant — Bristol, UK</title>
   <meta name="description" content="Freelance marketing analytics and MarTech consultant based in Bristol, UK. 10+ years delivering data-led growth across Marriott, Shangri-La, and Travel + Leisure Co. Available remote worldwide.">
   <meta name="author" content="Ben Smith">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <!-- Keywords: secondary signal only, specific and relevant -->
   <meta name="keywords" content="marketing analytics consultant Bristol, MarTech consultant UK, GA4 consultant, Google Tag Manager consultant, Tableau consultant UK, growth marketing analytics, digital marketing consultant Bristol, hospitality analytics">
   <link rel="canonical" href="https://yourusername.github.io">
   <meta name="theme-color" content="#0a1628">
 
-  <!-- ═══ GEO ═══ -->
+  <!-- ═══════════════════════════════════════════════════════
+       GEOGRAPHIC SEO
+  ═══════════════════════════════════════════════════════ -->
   <meta name="geo.region" content="GB-ENG">
   <meta name="geo.placename" content="Bristol">
   <meta name="geo.position" content="51.4545;-2.5879">
   <meta name="ICBM" content="51.4545, -2.5879">
 
-  <!-- ═══ OPEN GRAPH ═══ -->
+  <!-- ═══════════════════════════════════════════════════════
+       OPEN GRAPH
+  ═══════════════════════════════════════════════════════ -->
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://yourusername.github.io">
   <meta property="og:title" content="Ben Smith | Marketing Analytics &amp; MarTech Consultant — Bristol">
@@ -33,16 +36,33 @@
   <meta property="profile:first_name" content="Ben">
   <meta property="profile:last_name" content="Smith">
 
-  <!-- ═══ TWITTER CARD ═══ -->
+  <!-- ═══════════════════════════════════════════════════════
+       TWITTER CARD
+  ═══════════════════════════════════════════════════════ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ben Smith | Marketing Analytics &amp; MarTech Consultant">
   <meta name="twitter:description" content="Freelance marketing analytics and MarTech consultant based in Bristol. 10+ years in luxury hospitality and travel digital marketing.">
 
-  <!-- ═══ SCHEMA.ORG STRUCTURED DATA ═══ -->
+  <!-- ═══════════════════════════════════════════════════════
+       GEO — GENERATIVE ENGINE OPTIMISATION
+
+       Strategy:
+       1. Rich Schema.org @graph — Person + WebSite + Service +
+          FAQPage + Speakable for AI voice/LLM extraction
+       2. Entity disambiguation — full name, role, location,
+          employer history as machine-readable facts
+       3. FAQPage schema — AI systems prefer Q&A format for
+          direct answer extraction (Perplexity, SGE, ChatGPT)
+       4. Speakable schema — flags citation-ready passages
+          for Google Assistant and AI Overviews
+       5. Service schema — lets AI correctly classify what
+          Ben does and match to user queries
+  ═══════════════════════════════════════════════════════ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
+
       {
         "@type": "Person",
         "@id": "https://yourusername.github.io/#person",
@@ -50,14 +70,15 @@
         "givenName": "Ben",
         "familyName": "Smith",
         "jobTitle": "Marketing Analytics & MarTech Consultant",
-        "description": "Freelance marketing analytics and MarTech consultant based in Bristol, UK, with 10+ years across luxury hospitality and travel brands including Marriott International, Shangri-La Group, and Travel + Leisure Co.",
+        "description": "Ben Smith is a freelance marketing analytics and MarTech consultant based in Bristol, UK. He has over 10 years of experience delivering data-led growth strategy, analytics implementation, and MarTech architecture across luxury hospitality and travel brands including Marriott International, Shangri-La Group, and Travel + Leisure Co. He specialises in GA4, Adobe Analytics, Tableau, Power BI, Google Tag Manager, SQL, and attribution modelling.",
         "url": "https://yourusername.github.io",
         "email": "you@email.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Bristol",
           "addressRegion": "England",
-          "addressCountry": "GB"
+          "addressCountry": "GB",
+          "addressCountryCode": "GB-ENG"
         },
         "sameAs": [
           "https://linkedin.com/in/yourprofile",
@@ -65,45 +86,192 @@
           "https://substack.com/@wmarisa"
         ],
         "knowsAbout": [
-          "Marketing Analytics","Business Intelligence","MarTech","Google Analytics 4",
-          "Adobe Analytics","Tableau","Power BI","Google Tag Manager","SQL","BigQuery",
-          "SEO","Paid Search","Ecommerce","Attribution Modelling","A/B Testing",
-          "Growth Strategy","Salesforce","Data Layer Design"
+          "Marketing Analytics","Business Intelligence","MarTech Strategy",
+          "Google Analytics 4","Adobe Analytics","Tableau","Power BI",
+          "Google Tag Manager","SQL","BigQuery","SEO","Paid Search",
+          "Ecommerce","Attribution Modelling","A/B Testing","Growth Strategy",
+          "Salesforce CRM","Salesforce Datorama","Data Layer Design",
+          "Looker","Semrush","Hospitality Digital Marketing"
         ],
         "hasOccupation": {
           "@type": "Occupation",
           "name": "Marketing Analytics & MarTech Consultant",
           "occupationLocation": { "@type": "City", "name": "Bristol" },
-          "skills": "GA4, Adobe Analytics, Tableau, Power BI, Google Tag Manager, SQL, Attribution Modelling"
+          "skills": "GA4, Adobe Analytics, Tableau, Power BI, Google Tag Manager, SQL, Attribution Modelling, BigQuery, Salesforce Datorama"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Self-employed",
+          "description": "Freelance consulting across retail, real estate, music, hospitality, and travel industries"
         },
         "alumniOf": [
-          { "@type": "Organization", "name": "Shangri-La Group" },
-          { "@type": "Organization", "name": "Travel + Leisure Co." },
-          { "@type": "Organization", "name": "Marriott International" }
+          {
+            "@type": "Organization",
+            "name": "Shangri-La Group",
+            "url": "https://www.shangri-la.com",
+            "description": "Luxury international hotel and resort group based in Hong Kong"
+          },
+          {
+            "@type": "Organization",
+            "name": "Travel + Leisure Co.",
+            "url": "https://www.travelandleisureco.com",
+            "description": "Global travel and membership company, formerly Wyndham Destinations"
+          },
+          {
+            "@type": "Organization",
+            "name": "Marriott International",
+            "url": "https://www.marriott.com",
+            "description": "World's largest hospitality company with 30+ hotel brands globally"
+          }
         ],
         "offers": {
           "@type": "Offer",
           "name": "Freelance Marketing Analytics & MarTech Consulting",
-          "description": "Analytics implementation, dashboard reporting, MarTech strategy, and performance marketing for hospitality, travel, retail, and real estate brands.",
+          "description": "Analytics implementation (GA4, Adobe Analytics), dashboard and reporting (Tableau, Power BI), MarTech strategy (GTM, CDP, CRM), performance marketing, attribution modelling, and data layer architecture for hospitality, travel, retail, and real estate brands.",
           "areaServed": "Worldwide",
           "availableChannel": {
             "@type": "ServiceChannel",
-            "serviceType": "Remote & On-site"
+            "serviceType": "Remote, Hybrid, and On-site"
           }
         }
       },
+
       {
         "@type": "WebSite",
         "@id": "https://yourusername.github.io/#website",
         "url": "https://yourusername.github.io",
         "name": "Ben Smith — Marketing Analytics & MarTech Consultant",
-        "description": "Portfolio and professional profile of Ben Smith, freelance marketing analytics and MarTech consultant based in Bristol, UK.",
+        "description": "Portfolio and professional profile of Ben Smith, freelance marketing analytics and MarTech consultant based in Bristol, UK. Includes career history, services, skills, and contact information.",
         "inLanguage": "en-GB",
-        "author": { "@id": "https://yourusername.github.io/#person" }
+        "author": { "@id": "https://yourusername.github.io/#person" },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".hero h1", ".hero-tagline", ".hero-sub", "#about-heading", ".about-body"]
+        }
+      },
+
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://yourusername.github.io/#service",
+        "name": "Ben Smith — Marketing Analytics & MarTech Consulting",
+        "provider": { "@id": "https://yourusername.github.io/#person" },
+        "areaServed": "Worldwide",
+        "serviceType": [
+          "Marketing Analytics Consulting",
+          "MarTech Implementation",
+          "Business Intelligence & Dashboard Reporting",
+          "Growth Marketing Strategy",
+          "Google Analytics 4 Implementation",
+          "Google Tag Manager Setup",
+          "Attribution Modelling",
+          "Data Layer Architecture"
+        ],
+        "description": "Freelance marketing analytics and MarTech consulting services including GA4 and Adobe Analytics implementation, Tableau and Power BI dashboard development, Google Tag Manager tracking architecture, multi-touch attribution modelling, and growth marketing strategy.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Consulting Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Business Intelligence & Reporting",
+                "description": "Executive dashboards, KPI frameworks, and data visualisation using GA4, Adobe Analytics, Tableau, Power BI, Looker, and SQL."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MarTech & Tracking Architecture",
+                "description": "Tag management, data layer design, CDP setup, and CRM integration using Google Tag Manager, Salesforce, Segment, and Shopify."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Performance Marketing & Growth Strategy",
+                "description": "Paid search management, SEO strategy, email marketing, A/B testing, multi-touch attribution modelling, and media budget management."
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "@type": "FAQPage",
+        "@id": "https://yourusername.github.io/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Ben Smith?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ben Smith is a freelance marketing analytics and MarTech consultant based in Bristol, UK. He has over 10 years of experience across luxury hospitality and travel brands including Marriott International, Shangri-La Group, and Travel + Leisure Co., and specialises in GA4, Tableau, Google Tag Manager, and attribution modelling."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does Ben Smith specialise in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ben Smith specialises in three areas: marketing analytics and business intelligence (GA4, Adobe Analytics, Tableau, Power BI, SQL), MarTech and tracking architecture (Google Tag Manager, data layers, CDP, CRM), and performance marketing and growth strategy (paid search, SEO, A/B testing, attribution modelling)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Ben Smith available for freelance work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ben Smith is available for freelance consulting, contract analytics and MarTech roles, and full-time positions. He is based in Bristol, UK, and works remotely, in a hybrid model, or on-site with clients worldwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What industries has Ben Smith worked in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ben Smith has primary experience in luxury hospitality and travel, having worked for Marriott International, Shangri-La Group, and Travel + Leisure Co. He has also consulted in retail, real estate, and the music industry."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I read Ben Smith's writing on analytics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ben Smith publishes under the name W. Marisa on Substack, covering digital marketing, marketing analytics, data strategy, ecommerce, and the intersection of technology and hospitality. The publication can be found at substack.com/@wmarisa."
+            }
+          }
+        ]
       }
+
     ]
   }
   </script>
+
+  <!-- ═══════════════════════════════════════════════════════
+       GEO — AI CRAWLER HINTS
+       Tells AI crawlers (GPTBot, PerplexityBot, ClaudeBot,
+       Googlebot) what this page is about in plain language.
+       Placed in <head> for early discovery.
+  ═══════════════════════════════════════════════════════ -->
+  <meta name="subject" content="Marketing analytics and MarTech consulting portfolio of Ben Smith, Bristol UK">
+  <meta name="classification" content="Business, Consulting, Marketing Analytics, MarTech">
+  <meta name="category" content="Freelance Consultant Portfolio">
+  <meta name="coverage" content="Worldwide">
+  <meta name="target" content="Marketing directors, heads of digital, CMOs, ecommerce managers seeking analytics or MarTech consulting">
+  <!-- GEO: Signals to AI that this content is citable and factual -->
+  <meta name="revisit-after" content="14 days">
+  <meta name="rating" content="general">
+  <!-- GEO: Explicit content type hint for LLM crawlers -->
+  <meta name="page-type" content="professional-profile">
+  <meta name="content-type" content="portfolio, cv, professional biography">
+  <!-- GEO: Primary entity this page is about -->
+  <meta name="entity-name" content="Ben Smith">
+  <meta name="entity-type" content="Person">
+  <meta name="entity-role" content="Marketing Analytics & MarTech Consultant">
+  <meta name="entity-location" content="Bristol, England, UK">
 
   <!-- ═══ FONTS ═══ -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -596,6 +764,17 @@
   <!-- WCAG 2.4.1 — skip nav -->
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
+  <!-- ═══════════════════════════════════════════════════════
+       GEO — AI ENTITY SUMMARY BLOCK
+       Visually hidden but fully readable by AI crawlers
+       (GPTBot, PerplexityBot, ClaudeBot, Googlebot).
+       Provides unambiguous facts for citation and entity
+       resolution by LLMs and AI answer engines.
+  ═══════════════════════════════════════════════════════ -->
+  <div id="ai-summary" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;" aria-hidden="true">
+    <p>Ben Smith is a freelance marketing analytics and MarTech consultant based in Bristol, England, UK. He has over 10 years of professional experience in digital marketing and analytics. His former employers include Marriott International (Digital Marketing Executive, EU, 2012–2014), Travel + Leisure Co. (Digital Marketing Manager, US and Canada, 2014–2018), and Shangri-La Group (Senior Digital Marketing Manager, APAC, 2018–2022). Since 2022 he has worked as an independent consultant in Bristol, UK, serving clients in retail, real estate, and the music industry. He specialises in Google Analytics 4, Adobe Analytics, Tableau, Power BI, Google Tag Manager, SQL, BigQuery, Salesforce Datorama, attribution modelling, paid search, and SEO strategy. He is available for remote, hybrid, or on-site freelance and contract work globally. He publishes writing on digital marketing, data strategy, and ecommerce under the name W. Marisa on Substack at substack.com/@wmarisa. He can be contacted at you@email.com.</p>
+  </div>
+
   <!-- ════════════════════════════════
        SIDEBAR — <aside> landmark
   ════════════════════════════════ -->
@@ -618,6 +797,7 @@
         <li><a href="#skills"><span class="nav-dot" aria-hidden="true"></span>Skills &amp; Services</a></li>
         <li><a href="#contact"><span class="nav-dot" aria-hidden="true"></span>Contact</a></li>
         <li><a href="#writing"><span class="nav-dot" aria-hidden="true"></span>Writing</a></li>
+        <li><a href="#faq"><span class="nav-dot" aria-hidden="true"></span>FAQ</a></li>
       </ul>
 
       <p class="sidebar-nav-label">Experience</p>
@@ -745,9 +925,9 @@
           <div class="about-body">
             <!-- SEO: H2 contains location + specialisation keywords -->
             <h2 class="section-title" id="about-heading">Bristol-based consultant.<br><em>Global</em> hospitality experience.</h2>
-            <p>A decade in digital marketing, analytics, and ecommerce for some of the world's most recognised hospitality and travel brands — including Marriott International, Shangri-La Group, and Travel + Leisure Co. — across APAC, Europe, the US, and Canada.</p>
-            <p>Current focus: marketing analytics and MarTech strategy — implementing GA4 and Adobe Analytics tracking architectures, building Tableau and Power BI dashboards, designing data layers, and translating raw data into commercial decisions that move revenue.</p>
-            <p>Available for freelance and contract engagements in growth marketing, analytics, and digital strategy. Remote, hybrid, or on-site across the UK and internationally.</p>
+            <p>Ben Smith is a Bristol-based freelance marketing analytics and MarTech consultant with over 10 years of professional experience across luxury hospitality and travel. He has held senior digital marketing roles at Marriott International (EU, 2012–2014), Travel + Leisure Co. (US and Canada, 2014–2018), and Shangri-La Group (APAC, 2018–2022), before establishing an independent consultancy in 2022.</p>
+            <p>His current focus is marketing analytics and MarTech strategy: implementing GA4 and Adobe Analytics tracking architectures, building executive dashboards in Tableau and Power BI, designing data layers, and translating raw marketing data into commercial decisions that demonstrably move revenue.</p>
+            <p>Ben is available for freelance and contract engagements in growth marketing, analytics, and digital strategy — working remotely, in a hybrid model, or on-site with clients across the UK and internationally.</p>
           </div>
           <!-- WCAG 1.3.1 — info panel uses <dl> semantics via structure -->
           <div class="about-panel" role="list" aria-label="Profile details">
@@ -997,6 +1177,44 @@
           </div>
           <span class="writing-card-cta">Read on Substack</span>
         </a>
+      </div>
+    </section>
+
+    <!-- ── GEO: FAQ SECTION ──
+         Visible Q&A content matching FAQPage schema above.
+         AI engines (Perplexity, ChatGPT, Google SGE) prefer
+         Q&A format for direct answer extraction. Matches the
+         five FAQPage schema questions exactly.
+    -->
+    <section id="faq" class="section" aria-labelledby="faq-heading">
+      <div class="section-header">
+        <p class="section-kicker" aria-hidden="true">FAQ</p>
+        <span class="section-ref" aria-hidden="true">// FAQ-001</span>
+      </div>
+      <div class="contact-body reveal">
+        <h2 class="section-title" id="faq-heading" style="font-size:clamp(1.6rem,3vw,2.2rem); margin-bottom:28px;">Frequently asked <em>questions.</em></h2>
+        <dl style="display:flex; flex-direction:column; gap:0;">
+          <div style="padding:20px 0; border-bottom:1px solid var(--border);">
+            <dt style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; color:var(--text); margin-bottom:8px;">Who is Ben Smith?</dt>
+            <dd style="font-size:14px; color:var(--text-2); line-height:1.8; max-width:680px;">Ben Smith is a freelance marketing analytics and MarTech consultant based in Bristol, UK. He has over 10 years of experience across luxury hospitality and travel brands including Marriott International, Shangri-La Group, and Travel + Leisure Co., and specialises in GA4, Tableau, Google Tag Manager, and attribution modelling.</dd>
+          </div>
+          <div style="padding:20px 0; border-bottom:1px solid var(--border);">
+            <dt style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; color:var(--text); margin-bottom:8px;">What does Ben Smith specialise in?</dt>
+            <dd style="font-size:14px; color:var(--text-2); line-height:1.8; max-width:680px;">Ben Smith specialises in three areas: marketing analytics and business intelligence (GA4, Adobe Analytics, Tableau, Power BI, SQL), MarTech and tracking architecture (Google Tag Manager, data layers, CDP, CRM), and performance marketing and growth strategy (paid search, SEO, A/B testing, attribution modelling).</dd>
+          </div>
+          <div style="padding:20px 0; border-bottom:1px solid var(--border);">
+            <dt style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; color:var(--text); margin-bottom:8px;">Is Ben Smith available for freelance work?</dt>
+            <dd style="font-size:14px; color:var(--text-2); line-height:1.8; max-width:680px;">Yes. Ben Smith is available for freelance consulting, contract analytics and MarTech roles, and full-time positions. He is based in Bristol, UK, and works remotely, in a hybrid model, or on-site with clients worldwide.</dd>
+          </div>
+          <div style="padding:20px 0; border-bottom:1px solid var(--border);">
+            <dt style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; color:var(--text); margin-bottom:8px;">What industries has Ben Smith worked in?</dt>
+            <dd style="font-size:14px; color:var(--text-2); line-height:1.8; max-width:680px;">Ben Smith has primary experience in luxury hospitality and travel, having worked for Marriott International, Shangri-La Group, and Travel + Leisure Co. He has also consulted in retail, real estate, and the music industry.</dd>
+          </div>
+          <div style="padding:20px 0;">
+            <dt style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; color:var(--text); margin-bottom:8px;">Where can I read Ben Smith's writing on analytics?</dt>
+            <dd style="font-size:14px; color:var(--text-2); line-height:1.8; max-width:680px;">Ben Smith publishes under the name W. Marisa on Substack, covering digital marketing, marketing analytics, data strategy, ecommerce, and the intersection of technology and hospitality. The publication can be found at <a href="https://substack.com/@wmarisa" target="_blank" rel="noopener noreferrer" style="color:var(--gold);">substack.com/@wmarisa</a>.</dd>
+          </div>
+        </dl>
       </div>
     </section>
 
