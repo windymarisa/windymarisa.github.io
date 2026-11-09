@@ -1,1 +1,1 @@
-Documentation about my journey to learn data management & knowledge engineering
+Documentation about my journey to learn data, information and knowledge management
