@@ -1,1 +1,1 @@
-Documentation about my journey to learn data, information and knowledge management
+Documentation about my learning journey in data, information and knowledge management
