@@ -1,0 +1,25 @@
+# Windy Marisa
+
+> Windy Marisa is a freelance growth marketing and marketing analytics consultant based in Bristol, England, UK, with over 10 years of experience in luxury hospitality and travel digital marketing. She also offers web and app development. She works remotely, hybrid or on-site with clients worldwide.
+
+## Facts
+
+- Role: Growth Marketing & Marketing Analytics Consultant (self-employed, Bristol, UK, since 2022)
+- Senior Digital Marketing Manager, Shangri-La Group (APAC), 2018–2022
+- Digital Marketing Manager, Travel + Leisure Co. (US and Canada), 2014–2018
+- Digital Marketing Executive, Marriott International (EU), 2012–2014
+- Consulting sectors since 2022: retail, real estate, music
+- Writes on Substack under the pen name W. Marisa
+
+## Services
+
+- Growth marketing and performance strategy: paid search, SEO (Semrush, Similarweb), email and CRM (Salesforce), A/B testing, attribution modelling, budget management
+- Marketing analytics and business intelligence: Google Analytics 4, Adobe Analytics, Tableau, Power BI, Salesforce Datorama, Looker, SQL, BigQuery
+- Web and app development: marketing websites, landing pages, web and mobile apps, Shopify ecommerce, Sitecore CMS, booking engine and PMS integration, Google Tag Manager tracking set-up
+
+## Links
+
+- [Portfolio and FAQ](https://windymarisa.github.io/): career history, services and frequently asked questions
+- [Substack: W. Marisa](https://substack.com/@wmarisa): writing on digital marketing, analytics, data strategy and ecommerce
+- [LinkedIn](https://www.linkedin.com/in/windymarisa/)
+- Email: wamarisa@outlook.com
